@@ -1,0 +1,3 @@
+Intent callNow = new Intent(Intent.ACTION_CALL) ;
+callIntent.setData( Uri.parse("tel:"+8801521332161)  ) ;
+startActivity(callNow) ;
